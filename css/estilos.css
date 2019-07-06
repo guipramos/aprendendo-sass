@@ -1,5 +1,5 @@
 .sprite-sprite, .sprite-icone-ok, .sprite-icone-x {
-  background-image: url('../imagens/imagens/sprite-s1e035a9ecf.png');
+  background-image: url('../imagens/sprite-s1e035a9ecf.png');
   background-repeat: no-repeat;
 }
 
@@ -616,7 +616,7 @@ header .container {
 
 .plano {
   background: white;
-  width: 18em;
+  width: retorna-largura(18);
   display: inline-block;
   margin: 1em 0 0 1.4em;
   padding-bottom: 2em;
@@ -683,7 +683,7 @@ header .container {
   background-position: 0 -23px;
 }
 
-.icone-check, .icone-x {
+.sprite-icone-check, .sprite-icone-x {
   width: 18px;
   height: 18px;
 }
@@ -814,8 +814,8 @@ footer::before {
 }
 
 footer .container {
-  padding-top: 3em;
-  height: 6.5em;
+  padding-top: 48px;
+  height: 104px;
   position: relative;
 }
 

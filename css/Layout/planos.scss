@@ -9,7 +9,7 @@
 
 .plano {
   background: white;
-  width: 18em;
+  width: retorna-largura(18);
   display: inline-block;
   margin: 1em 0 0 1.4em;
   padding-bottom: 2em;
@@ -68,9 +68,7 @@
 
 
 @include all-sprite-sprites;
-
-.icone-check, .icone-x {
-
+.sprite-icone-check, .sprite-icone-x {
   width: 18px;
   height: 18px;
 }
